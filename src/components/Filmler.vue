@@ -10,7 +10,7 @@
     <div class="alert alert-info">Toplamda {{posts.results.length}} Tane Kayıt Listelendi</div>
     <div class="row">
     <div v-for="film in posts.results" :key="film.id" class="col-sm-3">
-    <div class="card" style="width: 18rem;height: 400px">
+    <div class="card" style="width: 370px;height: 350px">
 
       <img :src="'https://www.themoviedb.org/t/p/original'+ film.backdrop_path" class="card-img-top" alt="...">
       <div class="card-body">
