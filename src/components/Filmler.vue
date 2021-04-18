@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container"><center>
     <h1>Filmler</h1>
     <label class="form-label">Türü Değiştir</label>
     <select class="form-control" @change="degistir($event)">
@@ -23,7 +23,7 @@
 
     </div>
     </div>
-
+</center>
   </div>
 </template>
 
